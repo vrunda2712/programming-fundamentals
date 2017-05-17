@@ -2,7 +2,7 @@
 
 def greet_backwords(name)
   backwords = name.reverse
-  return "Hello #{backwords}#{backwords}! Welcome home."
+  "Hello #{backwords}#{backwords}! Welcome home."
 end
 
 puts greet_backwords("Bob")
