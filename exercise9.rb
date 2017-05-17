@@ -4,7 +4,7 @@ grocery_list = ["carrots","apples","salmon","milk","yogurt","bread","eggs"]
 
 def add_ast(arr)
   arr.each do |item|
-    puts "*#{item}"
+    puts "* #{item}"
   end
 end
 add_ast(grocery_list)
